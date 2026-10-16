@@ -16,12 +16,12 @@ export default defineUserConfig({
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'xidumplings' }],
     ['meta', { property: 'og:description', content: '记录 Web 安全学习、靶场实验、漏洞原理和工具环境配置。' }],
-    ['meta', { property: 'og:image', content: 'https://xishuchkui-code.github.io/assets/img/brand/black-hole.png' }],
+    ['meta', { property: 'og:image', content: 'https://xisdumpling.github.io/assets/img/brand/black-hole.png' }],
   ],
   bundler: viteBundler(),
   theme: plumeTheme({
-    hostname: 'https://xishuchkui-code.github.io',
-    docsRepo: 'xishuchkui-code/xishuchkui-code.github.io',
+    hostname: 'https://xisdumpling.github.io',
+    docsRepo: 'xisdumpling/xisdumpling.github.io',
     docsBranch: 'main',
     docsDir: 'docs',
     editLink: false,
@@ -52,7 +52,7 @@ export default defineUserConfig({
       provider: 'local',
     },
     social: [
-      { icon: 'github', link: 'https://github.com/xishuchkui-code' },
+      { icon: 'github', link: 'https://github.com/xisdumpling' },
     ],
     navbarSocialInclude: ['github'],
     navbar: [
@@ -61,7 +61,7 @@ export default defineUserConfig({
       { text: '分类', link: '/blog/categories/' },
       { text: '标签', link: '/blog/tags/' },
       { text: '归档', link: '/blog/archives/' },
-      { text: 'GitHub', link: 'https://github.com/xishuchkui-code' },
+      { text: 'GitHub', link: 'https://github.com/xisdumpling' },
     ],
     collections: [
       {
@@ -92,11 +92,11 @@ export default defineUserConfig({
           avatar: '/assets/img/brand/xiaoye.png',
           circle: true,
           location: 'Asia/Shanghai',
-          organization: 'xishuchkui-code',
+          organization: 'xisdumpling',
           layout: 'right',
         },
         social: [
-          { icon: 'github', link: 'https://github.com/xishuchkui-code' },
+          { icon: 'github', link: 'https://github.com/xisdumpling' },
         ],
       },
     ],
