@@ -10,7 +10,7 @@
 
 ## Global Constraints
 
-- Modify only `E:\Blog\xishuchkui-code.github.io\docs\.vuepress\styles\index.css` for runtime behavior.
+- Modify only `E:\Blog\xisdumpling.github.io\docs\.vuepress\styles\index.css` for runtime behavior.
 - Do not add JavaScript or dependencies.
 - Preserve the dark-first black-hole brand and long-form reading clarity.
 - Every animation must have a reduced-motion fallback.
@@ -21,7 +21,7 @@
 ### Task 1: Add motion tokens and hero entrance
 
 **Files:**
-- Modify: `E:\Blog\xishuchkui-code.github.io\docs\.vuepress\styles\index.css`
+- Modify: `E:\Blog\xisdumpling.github.io\docs\.vuepress\styles\index.css`
 
 **Interfaces:**
 - Consumes: existing Theme Plume classes `.vp-home-banner`, `.hero-name`, `.hero-tagline`, `.hero-text`, `.actions`.
@@ -35,7 +35,7 @@
 ### Task 2: Add interaction feedback
 
 **Files:**
-- Modify: `E:\Blog\xishuchkui-code.github.io\docs\.vuepress\styles\index.css`
+- Modify: `E:\Blog\xisdumpling.github.io\docs\.vuepress\styles\index.css`
 
 **Interfaces:**
 - Consumes: existing Theme Plume classes `.VPButton`, `.vp-home-features`, `.vp-post-list`, `.post-cover`, profile images, nav links.
@@ -49,7 +49,7 @@
 ### Task 3: Add accessibility and verification
 
 **Files:**
-- Modify: `E:\Blog\xishuchkui-code.github.io\docs\.vuepress\styles\index.css`
+- Modify: `E:\Blog\xisdumpling.github.io\docs\.vuepress\styles\index.css`
 
 **Interfaces:**
 - Consumes: `prefers-reduced-motion` media query.
