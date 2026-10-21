@@ -424,3 +424,55 @@ body {
     font-size: 36px;
   }
 }
+
+/* PDF post embed */
+.pdf-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  margin: 1.25rem 0 1rem;
+  font-size: 0.92rem;
+  color: var(--vp-c-text-2);
+}
+
+.pdf-download {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--vp-c-brand-1);
+  border-radius: 8px;
+  color: var(--vp-c-brand-1);
+  font-weight: 500;
+  transition:
+    background-color var(--blog-duration-fast) ease,
+    color var(--blog-duration-fast) ease;
+}
+
+.pdf-download:hover {
+  background: var(--vp-c-brand-soft);
+  text-decoration: none;
+}
+
+.pdf-embed {
+  margin: 0 0 1rem;
+  overflow: hidden;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  background: var(--vp-c-bg-alt);
+}
+
+.pdf-embed iframe {
+  display: block;
+  width: 100%;
+  height: min(80vh, 900px);
+  min-height: 560px;
+  border: 0;
+}
+
+@media (max-width: 767px) {
+  .pdf-embed iframe {
+    height: 70vh;
+    min-height: 420px;
+  }
+}
