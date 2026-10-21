@@ -25,7 +25,7 @@ author: "xishu"
 2024 第十五届极客大挑战（Geek Challenge）的完整 Writeup，按题型整理了 Misc、Crypto、Web、Reverse 四个方向的题目分析、利用脚本和最终 flag。
 
 - **赛事**：2024 第十五届极客大挑战
-- **排名**：第 30 名
+- **排名**：第 25 名
 - **方向**：Misc / Crypto / Web / Reverse
 - **形式**：PDF Writeup，共 106 页
 - **flag 格式**：`SYC{...}`
